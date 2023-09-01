@@ -35,12 +35,13 @@
             // 
             // btnSave
             // 
+            btnSave.BackColor = Color.FromArgb(255, 128, 128);
             btnSave.Location = new Point(249, 71);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(94, 29);
             btnSave.TabIndex = 0;
             btnSave.Text = "Save";
-            btnSave.UseVisualStyleBackColor = true;
+            btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
             // 
             // lblFirstName
